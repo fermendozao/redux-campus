@@ -1,0 +1,158 @@
+// Color Palette
+// - A
+$color-alabaster: #fbfbfb;
+// - B
+$color-boulder: #7d7d7d;
+$color-black: #000;
+// -D
+$color-dove-gray: #616161;
+// -E
+$color-emperor: #545454;
+// -F
+$color-facebook: #3b5998;
+$color-facebook-state: #2d4373;
+//- G
+$color-gallery: #eaeaea;
+$color-geyser: #d2d9df;
+// - M
+$color-mercury: #e6e6e6;
+// - N
+$color-nobel: #b7b7b7;
+// - O
+$color-outer-space: #383c3f;
+// - P
+$color-pumice: #d6d8d7;
+// - R
+$color-regent-gray: #878f9c;
+$color-rolling-stone: #78797b;
+// - S
+$color-santas-grey: #979da9;
+$color-shark: #28292b;
+$color-silver-chalice: #a0a0a0;
+$color-spring-rain: #a8caa8;
+$color-tundora: #464646;
+// - T
+$color-twitter: #55acee;
+$color-twitter-state: #2795e9;
+// - W
+$color-white: #FFF;
+$color-wildsand: #f6f6f6;
+
+//== Colors
+//
+$brand-primary:         $color-black !default;
+$brand-secondary:       $color-emperor !default;
+$brand-success:         $color-regent-gray !default;
+
+//** Global text color on `<body>`.
+$text-color:            $color-black !default;
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans: 'Open Sans', sans-serif !default;
+$font-family-serif: 'Helvetica', sans-serif !default;
+$font-family-base: $font-family-sans !default;
+
+$font-size-base:          15px !default;
+$font-size-large:         20px !default;
+
+// == Container sizes
+// Large screen / wide desktop
+$container-xl-desktop: 1446px !default;
+
+//** Global text color on `<body>`.
+$text-color: $color-outer-space !default;
+
+//== Grid system
+//
+
+//** Number of columns in the grid.
+$grid-columns:              12 !default;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         30px !default;
+
+//== Components
+//
+//## Define common padding and border radius sizes and more. Values based on 14px text and 1.428 line-height (~20px to start).
+
+$border-radius-base:        0 !default;
+$border-radius-large:       0 !default;
+$padding-base-vertical:     8px !default;
+
+//== Navbar
+//
+//##
+$navbar-inverse-toggle-hover-bg:            transparent !default;
+$navbar-inverse-toggle-border-color:        transparent !default;
+
+
+//=== Inverted navbar
+// Reset inverted navbar basics
+$navbar-inverse-color: $color-white !default;
+$navbar-inverse-bg: $color-outer-space !default;
+$navbar-inverse-border: transparent !default;
+
+// Inverted navbar links
+$navbar-inverse-link-color:                 $color-white !default;
+$navbar-inverse-link-hover-color:           $color-white !default;
+$navbar-inverse-link-hover-bg:              $color-black !default;
+
+//== Tabs
+$nav-tabs-border-color:                     $color-emperor !default;
+$nav-tabs-link-hover-border-color:          $color-emperor !default;
+$nav-tabs-active-link-hover-bg:             $color-emperor !default;
+$nav-tabs-active-link-hover-color:          $color-white !default;
+$nav-tabs-active-link-hover-border-color:   $color-emperor !default;
+
+//== Buttons
+//
+//## For each of Bootstrap's buttons, define text, background and border color.
+
+$btn-primary-border:             $brand-success;
+$btn-primary-bg:                 $brand-success;
+
+$btn-default-color:              $color-white !default;
+$btn-default-bg:                 $color-santas-grey !default;
+$btn-default-border:             $color-santas-grey !default;
+
+$btn-info-color:                 #fff !default;
+$btn-info-bg:                    $brand-secondary !default;
+$btn-info-border:                $brand-secondary !default;
+
+//== Modals
+//
+//##
+
+//** Padding applied to the modal body
+$modal-inner-padding:         0 !default;
+$modal-md:                    482px !default;
+
+//== Popovers
+//
+//##
+
+//** Popover body background color
+$popover-bg:                          #fff !default;
+//** Popover maximum width
+$popover-max-width:                   276px !default;
+//** Popover border color
+$popover-border-color:                transparent !default;
+//** Popover fallback border color
+$popover-fallback-border-color:       transparent !default;
+
+//** Popover title background color
+$popover-title-bg:                    darken($popover-bg, 3%) !default;
+
+//** Popover arrow width
+$popover-arrow-width:                 10px !default;
+//** Popover arrow color
+$popover-arrow-color:                 $popover-bg !default;
+
+//** Popover outer arrow width
+$popover-arrow-outer-width:           ($popover-arrow-width + 1) !default;
+//** Popover outer arrow color
+$popover-arrow-outer-color:           fade_in($popover-border-color, 0.05) !default;
+//** Popover outer arrow fallback color
+$popover-arrow-outer-fallback-color:  darken($popover-fallback-border-color, 20%) !default;

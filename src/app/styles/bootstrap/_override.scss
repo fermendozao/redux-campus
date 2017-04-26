@@ -1,0 +1,56 @@
+.btn-radius { border-radius: 3px; }
+.btn-lg { font-weight: bold; }
+
+.modal {
+  &-content {
+    border: 7px solid $brand-primary;
+    border-radius: 5px;
+  }
+
+  &-header {
+    background-color: $brand-primary;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  &-title {
+    font-size: 2em;
+  }
+}
+
+.nav-tabs {
+  >li >a {
+    margin-right: 0;
+    color: $color-black;
+    border: 1px solid $color-emperor;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    &.active,
+    &:hover {
+      background-color: $color-emperor;
+      color: $color-white;
+    }
+  }
+}
+
+hr {
+  border-top: 2px solid $color-emperor;
+}
+
+@media screen and (max-width: $screen-sm-min) {
+  .input-group {
+    display: block;
+
+    &-btn {
+      button{
+        width: 50%;
+      }
+
+      &:last-child > .btn,
+      & > .btn + .btn {
+        margin-left: 0;
+      }
+    }
+  }
+}

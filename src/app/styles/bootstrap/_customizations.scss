@@ -1,0 +1,8 @@
+.btn.btn-bordered {
+  background: transparent;
+  border: 2px solid $color-regent-gray;
+  color: $color-regent-gray;
+  &:hover, &:active, &:focus {
+    color: $color-regent-gray;
+  }
+}
